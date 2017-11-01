@@ -18,7 +18,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         stopRecordingButton.isEnabled = false
     }
     
@@ -27,7 +26,6 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        print("View did appear")
     }
 
     @IBAction func recordAudio(_ sender: AnyObject) {
@@ -63,7 +61,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         if flag{
             performSegue(withIdentifier: "stopRecording", sender: audioRecorder.url)
         } else {
-            print("recording not successful")
+            print("ERROR: recording not successful")
         }
         
     }

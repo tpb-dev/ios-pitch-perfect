@@ -14,6 +14,7 @@
 		672E699D1FA2CA1100B8F554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672E699C1FA2CA1100B8F554 /* Assets.xcassets */; };
 		672E69A01FA2CA1100B8F554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 672E699E1FA2CA1100B8F554 /* LaunchScreen.storyboard */; };
 		67C8A8311FA8D5B100D786FB /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8A8301FA8D5B100D786FB /* PlaySoundsViewController.swift */; };
+		67C8A8331FA97AB300D786FB /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8A8321FA97AB300D786FB /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		672E699F1FA2CA1100B8F554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		672E69A11FA2CA1100B8F554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67C8A8301FA8D5B100D786FB /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		67C8A8321FA97AB300D786FB /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				672E69A11FA2CA1100B8F554 /* Info.plist */,
 				672E69991FA2CA1100B8F554 /* ios_pitch_perfect.xcdatamodeld */,
 				67C8A8301FA8D5B100D786FB /* PlaySoundsViewController.swift */,
+				67C8A8321FA97AB300D786FB /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = "ios-pitch-perfect";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C8A8331FA97AB300D786FB /* PlaySoundsViewController+Audio.swift in Sources */,
 				672E699B1FA2CA1100B8F554 /* ios_pitch_perfect.xcdatamodeld in Sources */,
 				672E69951FA2CA1100B8F554 /* RecordSoundsViewController.swift in Sources */,
 				67C8A8311FA8D5B100D786FB /* PlaySoundsViewController.swift in Sources */,
